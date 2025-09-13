@@ -42,7 +42,7 @@ export default function PostIt({
 
   return (
     <motion.div 
-      className={`w-full aspect-square p-5 border-l-1 border-t-1 border-b-4 border-r-4 border-black shadow flex flex-col cursor-grab active:cursor-grabbing ${color} ${className}`}
+      className={`w-full aspect-square p-5 border-l-1 border-t-1 border-b-4 border-r-4 border-black drop-shadow hover:drop-shadow-xl flex flex-col cursor-grab active:cursor-grabbing ${color} ${className}`}
       drag
       dragMomentum={false}
       dragElastic={0}

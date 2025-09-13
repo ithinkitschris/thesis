@@ -26,9 +26,9 @@ export default function RootLayout({ children }) {
         <ThemeProvider>
           <NavigationProvider>
             {/* Notes Component - Absolutely positioned overlay */}
-            <div className="absolute top-0 left-0 w-1/3 h-full pointer-events-none z-10">
+            {/* <div className="absolute top-0 left-0 w-1/3 h-full pointer-events-none z-10">
               <NotesContent showBackButton={false} isMainPage={true} />
-            </div>
+            </div> */}
             
             {/* Main content */}
             {children}

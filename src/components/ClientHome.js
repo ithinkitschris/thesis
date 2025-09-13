@@ -3,16 +3,29 @@
 import { useNavigation } from '@/lib/navigation-context';
 import Sidebar from '@/components/Sidebar';
 import MainContent from '@/components/MainContent';
+import NotesContent from '@/components/content/NotesContent';
 
 function ClientHomeContent({ posts, categories, tags }) {
   return (
-    <div className="max-w-[50rem] mt-32 mx-auto mb-40 relative">
-      <Sidebar categories={categories} tags={tags} />
-      <div className="lg:ml-64 lg:pr-8">
+    <div className="mb-40 relative flex flex-row p-20 ">
+
+      {/* Sidebar */}
+      <div className="fixed left-[27.5%] top-16 w-[12.5%]">
+        <Sidebar categories={categories} tags={tags} />
+      </div>
+
+
+      {/* Main Content */}
+      <div className="absolute left-[40%] top-16 w-[32.5%]">
         <MainContent 
           posts={posts}
           allPosts={posts}
         />
+      </div>
+
+      {/* Notes  */}
+      <div className="absolute top-8 left-0 w-[24%]">
+        <NotesContent isMainPage={false} showBackButton={false} />
       </div>
     </div>
   );

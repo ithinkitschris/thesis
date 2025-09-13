@@ -26,7 +26,7 @@ export default function TagContent({ tag, posts }) {
       
       <header className="mb-12 border-b-[1.5px] border-foreground pb-10">
         <h1 className="text-3xl font-medium text-foreground mb-2 tracking-[-0.02rem]">Posts tagged "{tag}"</h1>
-        <p className="text-foreground/70 text-sm">{posts.length} {posts.length === 1 ? 'entry' : 'entries'}</p>
+        <p className="text-foreground/70 font-mono tracking-tight text-sm">{posts.length} {posts.length === 1 ? 'Entry' : 'Entries'}</p>
       </header>
       
       <main>

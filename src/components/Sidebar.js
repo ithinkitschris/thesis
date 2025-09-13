@@ -7,7 +7,7 @@ export default function Sidebar({ categories, tags }) {
   const { currentView, navigateToHome, navigateToCategory, navigateToTag } = useNavigation();
 
   return (
-    <aside className="lg:fixed lg:top-20 h-full lg:w-64 lg:left-[calc(50%-23rem)] z-50">
+    <aside className="">
       <div className="space-y-8">
         {/* Header */}
         <header className="mb-12 w-full">

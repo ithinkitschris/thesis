@@ -87,7 +87,7 @@ export default function PostContent({ category, slug, allPosts }) {
         {/* Content */}
         <div 
           className={`
-            prose prose-sm max-w-none text-foreground leading-[1.2rem]
+            prose prose-sm max-w-none text-foreground leading-[1.5rem]
             prose-headings:text-foreground prose-headings:font-medium
             prose-h2:text-2xl prose-h3:text-md
             prose-p:text-foreground/50

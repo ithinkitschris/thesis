@@ -24,7 +24,8 @@ export default function HomeContent({ posts }) {
           className="pb-3 border-b-[0px] border-foreground"
         >
           {/* Title and Date */}
-          <div className="flex items-start justify-between mb-0 text-sm">
+          <div className="flex items-start justify-between mb-2 text-sm">
+
             {/* Title */}
             <h3 className="mb-2 w-full">
               <button
@@ -34,6 +35,11 @@ export default function HomeContent({ posts }) {
                 {post.title}
               </button>
             </h3>
+
+            {/* Category */}
+            {/* <span className="text-foreground text-xs tracking-tight">
+              {post.category}
+            </span> */}
 
             {/* Date */}
             <span className="text-foreground text-xs font-mono tracking-tight">
@@ -46,6 +52,16 @@ export default function HomeContent({ posts }) {
               })()}
             </span>
           </div>
+
+          {/* Title */}
+          {/* <h3 className="mb-2 w-full">
+            <button
+              onClick={() => navigateToPost(post.category, post.slug)}
+              className="inline-block text-lg font-medium tracking-[-0.02rem] w-[85%] leading-[1.4] text-link underline hover:scale-99 text-left"
+            >
+              {post.title}
+            </button>
+          </h3> */}
           
           <p className="text-foreground text-sm">{post.excerpt}</p>
         </article>
