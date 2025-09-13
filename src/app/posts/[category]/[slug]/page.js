@@ -1,8 +1,8 @@
-import { getPostBySlug, markdownToHtml, getAllPosts } from '@/lib/content';
+import { getPostBySlug, getAllPosts } from '@/lib/client-content';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   const posts = getAllPosts();
   return posts.map(post => ({
     category: post.category,
@@ -10,15 +10,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function PostPage({ params }) {
-  const { category, slug } = await params;
+export default function PostPage({ params }) {
+  const { category, slug } = params;
   const post = getPostBySlug(category, slug);
   
   if (!post) {
     notFound();
   }
   
-  const content = await markdownToHtml(post.content);
+  const content = post.htmlContent;
   
   return (
     <div className="max-w-4xl mx-auto p-8">

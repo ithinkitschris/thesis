@@ -1,16 +1,16 @@
-import { getPostsByCategory, getAllCategories } from '@/lib/content';
+import { getPostsByCategory, getAllCategories } from '@/lib/client-content';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   const categories = getAllCategories();
   return categories.map(category => ({
     category,
   }));
 }
 
-export default async function CategoryPage({ params }) {
-  const { category } = await params;
+export default function CategoryPage({ params }) {
+  const { category } = params;
   const posts = getPostsByCategory(category);
   
   if (posts.length === 0) {

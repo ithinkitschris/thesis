@@ -24,6 +24,9 @@ module.exports = {
         '4': '4px',
         '5': '5px',
       },
+      maxWidth: {
+        '3.5xl': '52rem',
+      },
       borderColor: {
         'foreground': 'var(--foreground)',
       },

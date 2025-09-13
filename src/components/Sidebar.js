@@ -7,7 +7,7 @@ export default function Sidebar({ categories, tags }) {
   const { currentView, navigateToHome, navigateToCategory, navigateToTag } = useNavigation();
 
   return (
-    <aside className="lg:sticky lg:top-8">
+    <aside className="lg:fixed lg:top-20 h-full lg:w-64 lg:left-[calc(50%-23rem)] z-50">
       <div className="space-y-8">
         {/* Header */}
         <header className="mb-12 w-full">
@@ -23,7 +23,23 @@ export default function Sidebar({ categories, tags }) {
         {/* Categories */}
         <div>
           <h3 className="text-xl font-semibold tracking-[-0.02rem] mb-2 text-foreground">Categories</h3>
+
+          {/* List of categories */}
           <ul className="flex flex-col">
+            
+            {/* Notes */}
+            {/* <button
+              onClick={navigateToNotes}
+              className={`block py-1 text-sm text-left w-full underline hover:scale-96 origin-left ${
+                currentView.type === 'notes'
+                  ? 'text-foreground font-medium' 
+                  : 'text-link'
+              }`}
+            >
+              Notes
+            </button> */}
+
+            {/* Markdown Categories */}
             {categories.map(category => (
               <li key={category}>
                 <button
@@ -38,7 +54,9 @@ export default function Sidebar({ categories, tags }) {
                 </button>
               </li>
             ))}
+
           </ul>
+          
         </div>
 
         {/* Tags */}

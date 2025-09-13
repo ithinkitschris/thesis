@@ -1,4 +1,4 @@
-import { getAllPosts, getAllCategories, getAllTags } from '@/lib/content';
+import { getAllPosts, getAllCategories, getAllTags } from '@/lib/client-content';
 import ClientHome from '@/components/ClientHome';
 
 export default function Home() {

@@ -1,16 +1,16 @@
-import { getPostsByTag, getAllTags } from '@/lib/content';
+import { getPostsByTag, getAllTags } from '@/lib/client-content';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   const tags = getAllTags();
   return tags.map(tag => ({
     tag,
   }));
 }
 
-export default async function TagPage({ params }) {
-  const { tag } = await params;
+export default function TagPage({ params }) {
+  const { tag } = params;
   const posts = getPostsByTag(tag);
   
   if (posts.length === 0) {

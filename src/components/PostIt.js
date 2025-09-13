@@ -7,6 +7,7 @@ export default function PostIt({
   id, 
   header, 
   content, 
+  color = "bg-yellow-100",
   className = "",
   onPositionUpdate 
 }) {
@@ -41,7 +42,7 @@ export default function PostIt({
 
   return (
     <motion.div 
-      className={`w-full aspect-square p-5 border-l-1 border-t-1 border-b-4 border-r-4 border-foreground bg-background shadow flex flex-col cursor-grab active:cursor-grabbing ${className}`}
+      className={`w-full aspect-square p-5 border-l-1 border-t-1 border-b-4 border-r-4 border-black shadow flex flex-col cursor-grab active:cursor-grabbing ${color} ${className}`}
       drag
       dragMomentum={false}
       dragElastic={0}
@@ -60,12 +61,11 @@ export default function PostIt({
     >
       {/* Header */}
       <div className="mb-2">
-        <h3 className="text-xl font-semibold text-foreground">{header}</h3>
-        <p className="text-foreground/70 text-xs"></p>
+        <h3 className="text-xs font-semibold text-black">{header}</h3>
       </div>
 
       {/* Content */}
-      <div className="text-foreground/80 text-sm leading-relaxed flex-1">
+      <div className="text-black/80 text-xs flex-1">
         {content}
       </div>
     </motion.div>

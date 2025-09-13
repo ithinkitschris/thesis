@@ -18,7 +18,7 @@ export default function MainContent({ posts, allPosts }) {
   };
 
   return (
-    <main className="lg:col-span-3">
+    <main className="lg:col-span-3 max-w-[50rem]">
       {currentView.type === 'home' && (
         <HomeContent key="home" posts={posts} />
       )}
