@@ -4,6 +4,7 @@ import { readingsPosts } from './readings.js';
 import { resourcesPosts } from './resources.js';
 import { thoughtSandboxPosts } from './thoughtSandbox.js';
 import { conceptsPosts } from './concepts.js';
+import { statementsPosts } from './statements.js';
 
 // Clean markdown to HTML converter for client-side use
 export function markdownToHtml(markdown) {
@@ -158,14 +159,17 @@ export const allPosts = [
   ...thoughtSandboxPosts,
   ...readingsPosts,
   ...resourcesPosts,
+  ...statementsPosts,
 ];
 
 // Get all posts (client-side)
 export function getAllPosts() {
-  return allPosts.map(post => ({
-    ...post,
-    htmlContent: markdownToHtml(post.content)
-  }));
+  return allPosts
+    .map(post => ({
+      ...post,
+      htmlContent: markdownToHtml(post.content)
+    }))
+    .sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort by date, latest first
 }
 
 // Get posts by category

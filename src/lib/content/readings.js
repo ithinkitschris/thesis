@@ -1,6 +1,178 @@
 // Readings and references posts
 export const readingsPosts = [
 
+    // Affordances Readings List
+    {
+        slug: 'affordances-readings-list',
+        category: 'Readings',
+        title: 'Affordances Readings List',
+        date: '2025-09-19',
+        tags: ['Readings', 'Research', 'HCI', 'UX', 'Affordances'],
+        excerpt: 'Core Reading List on Affordances',
+        content: `## Core Reading List on Affordances
+### 1. Foundational Works (The "Must Reads")
+These are the pillars — you won't be credible without them.
+**James J. Gibson (1977, 1979)**
+- The Theory of Affordances (in Perceiving, Acting, and Knowing).
+- The Ecological Approach to Visual Perception.
+- → Original articulation of affordances as action possibilities in an environment relative to an agent.
+**Donald A. Norman (1988, 2013)**
+- The Design of Everyday Things (original + revised editions).
+- → Introduces perceived vs. real affordances, and the importance of signifiers. The designer's entry point into affordance theory.
+**William Gaver (1991, 1992)**
+- Technology Affordances (1991).
+- The Affordances of Media Spaces (1992).
+- → Early HCI applications of Gibsonian affordances; emphasizes perception and context in technology.
+
+
+### 2. Key Theoretical Expansions
+These works broaden affordances into interaction design, embodiment, and cognition.
+**Paul Dourish (2001)**
+- Where the Action Is: The Foundations of Embodied Interaction.
+- → Extends affordances into embodied, situated practice. Critical for tying affordances to multimodality and ecological perspectives.
+**Herbert H. Clark & Susan E. Brennan (1991)**
+- Grounding in Communication.
+- → Not about affordances directly, but essential for understanding multimodal signals and mutual intelligibility.
+**Mihai Nadin (1988, 2018)**
+- Interface Design and Affordance.
+- → Links semiotics and affordances, useful for your lens of "design languages."
+**Susanne Bødker (1991, 2006)**
+- Through the Interface: A Human Activity Approach to User Interface Design.
+- → Activity theory + affordances, particularly relevant to contextual/ecological perspectives.
+**McGrenere, J., & Ho, W. (2000)**
+- Affordances: Clarifying and Evolving a Concept.
+- → One of the clearest academic breakdowns of affordance theory, especially Norman vs. Gibson tensions.
+
+
+### 3. Contemporary HCI & Multimodality
+This is where the theory meets current systems — the gaps you'll build on.
+**Sharon Oviatt (1999, 2002)**
+- Ten Myths of Multimodal Interaction.
+- Multimodal Interfaces (2002).
+- → Establishes multimodal communication as natural, complementary, and robust.
+**Vieira et al. (2024)**
+- Understanding Affordances in XR Interactions: A Systematic Review.
+- → Current multimodal/XR affordance challenges.
+**Bieniek et al. (2024)**
+- Generative AI in Multimodal User Interfaces: Trends, Challenges, and Cross-Platform Adaptability.
+- → Shows the problem of affordance continuity across devices/platforms.
+**Monsaingeon et al. (2023)**
+- Multimodal Interface and Reliability Displays in Partially Automated Vehicles.
+- → High-stakes context where mismatched affordances undermine trust.
+**Peng et al. (2024)**
+- DesignPrompt: Using Multimodal Interaction for Design Exploration with Generative AI.
+- → Designers themselves face affordance discontinuity when shifting modalities.
+
+
+### 4. Peripheral but Useful (Tangents for Depth)
+These works aren't strictly "affordance," but they'll give you depth in ecological + multimodal thinking.
+**Lucy Suchman (1987/2007)**
+- Plans and Situated Actions.
+- → Grounding for situatedness; complements Dourish and Gibson.
+**Alva Noë (2004)**
+- Action in Perception.
+- → Philosophical extension of ecological perception; helpful for grounding "embodied affordances."
+**Mark Weiser (1991)**
+- The Computer for the 21st Century.
+- → Ubiquitous computing vision — your ecological multimodal world anticipated.
+**Don Ihde (1990)**
+- Technology and the Lifeworld.
+- → Phenomenology of human–technology relations, connects to affordances and mediation.
+
+### 🧭 How to Use This List
+- Start with foundations (Gibson, Norman, Gaver, McGrenere & Ho). These give you the conceptual core.
+- Layer in expansions (Dourish, Clark & Brennan, Bødker) to understand affordances beyond objects → into practice, context, ecology.
+- Dive into multimodality (Oviatt + contemporary papers). This is your bridge into current challenges.
+- Pull tangents (Suchman, Noë, Weiser, Ihde) when you need to show breadth and depth in ecological/embodied perspectives.`
+    },
+    
+
+    // Sketching User Experiences: Getting the Design Right and the Right Design, Bill Buxton
+    {
+        slug: 'sketching-user-experiences-getting-the-design-right-and-the-right-design',
+        category: 'Readings',
+        title: 'Sketching User Experiences: Getting the Design Right and the Right Design',
+        date: '2025-09-16',
+        tags: ['Readings', 'Research', 'HCI', 'UX',],
+        excerpt: 'Main Takeaways, Notes and Key Concepts from Sketching User Experiences: Getting the Design Right and the Right Design by Bill Buxton',
+        content: `## Introduction: The Book's Central Thesis
+The central thesis of the book is that the most critical challenge in design is not executing a design well, but rather ensuring you are executing the right design in the first place. Buxton builds his entire philosophy around this distinction, which he articulates as two separate, crucial activities:
+**Getting the Right Design:** This is the initial, exploratory, and divergent phase of the design process. It's about ideation, exploration, and considering a wide range of possibilities to determine what should be designed. The goal here is to find the most promising concept to solve the user's problem. This phase is characterized by low-fidelity, high-ambiguity artifacts like sketches.
+**Getting the Design Right:** This is the subsequent, focused, and convergent phase. Once a promising concept has been identified, this phase is about refinement, execution, and iteration to ensure the chosen design is built correctly—that it is usable, robust, and well-crafted. This phase is characterized by higher-fidelity artifacts like prototypes.
+Buxton argues that most design failures stem from rushing into "getting the design right" before adequately exploring the problem space to "get the right design."
+## Significance in HCI/IXD
+Sketching User Experiences is a foundational text because it provided a formal vocabulary and methodology for the messy, often-undervalued early stages of digital product design. Before its widespread influence, the digital design process was often a linear path from requirements to high-fidelity mockups, leaving little room for true ideation.
+**It Filled the "Ideation Gap":** The book championed the front-end of the design process, legitimizing rapid, low-cost exploration. It shifted the focus from the craft of creating a perfect artifact to the skill of generating and evaluating ideas.
+**Influence on Modern Design Processes:** Buxton's ideas are a direct intellectual ancestor to many modern design methodologies:
+- **UX Design:** His emphasis on understanding the user experience through exploration is a core tenet of the entire UX field.
+- **Lean Startup & Lean UX:** The principle of using low-cost artifacts (like sketches) to test assumptions before investing heavily in development is central to the "fail fast" and "build-measure-learn" mantras of Lean.
+- **Design Sprints (Google Ventures):** The entire "ideate and sketch" phase of a Design Sprint is a direct operationalization of Buxton's philosophy: generate a wide array of solutions quickly and cheaply before converging on a single idea to prototype and test.
+In essence, Buxton gave designers the language and rationale to demand time and space for creative exploration, fundamentally reshaping the modern digital product development lifecycle.
+## Core Principles of Sketching Philosophy
+Buxton introduces a set of fundamental design principles that function as a powerful vocabulary for analyzing and creating interactive systems.
+### The Defining Properties of a Sketch
+**Academic Definition**
+A sketch is not a medium (like a pencil drawing) but an artifact characterized by a set of properties that communicate its conceptual and transient nature. Buxton's key properties include: Timely (can be made quickly), Inexpensive (and therefore disposable), Plentiful (you can create many variations), Ambiguous (invites interpretation and discussion), and having a Minimal Level of Detail. It is a tool for inquiry, not a statement of fact.
+**Classic Physical Example**
+An architect scribbles a dozen different floor plan layouts on a napkin at a cafe. Each drawing is rough, uses a "clear vocabulary" of simple lines for walls and boxes for furniture, and is intentionally vague. The ambiguity of a wavy line for a staircase allows a colleague to ask, "Is that a spiral or a standard staircase?" This question opens a conversation about the idea of the staircase, not the specific measurements. A detailed CAD drawing would shut down that conversation.
+**Contemporary Digital UX Example**
+Jumping directly into a high-fidelity tool like Figma or Framer to explore initial ideas is a trap. It encourages you to focus on pixels, alignment, and polish ("getting the design right") before you've validated the core concept ("the right design"). A digital designer should start with digital whiteboarding tools (Miro, FigJam), paper and pen, or low-fidelity wireframing tools (Balsamiq) to embody the properties of a sketch. Ambiguity is a feature because it signals "this is an idea, not a final design," inviting collaborative input rather than superficial critique about color choices.
+**Takeaway for Modern UI Designers**
+The fidelity of what you create dictates the conversation you can have. If you want foundational, conceptual feedback, you must present low-fidelity work. Showing polished designs too early is a form of self-sabotage; it starves you of the critical feedback needed to "get the right design."
+### The Design Funnel
+**Academic Definition**
+The Design Funnel is a model representing the design process over time. It begins with a wide mouth, symbolizing the initial phase of broad, divergent exploration where many ideas are generated and considered (getting the right design). As the project progresses, the funnel narrows, representing the convergent phase where ideas are refined, tested, and iterated upon, ultimately leading to a single, shipped product (getting the design right).
+**Classic Physical Example**
+An industrial design team tasked with creating a new electric kettle begins at the wide end of the funnel. They sketch dozens of concepts: tall ones, short ones, glass ones, ones with digital displays, ones shaped like animals. Through critique and user feedback, they discard most ideas and select three promising directions. The funnel narrows. They build rough physical models of these three. The funnel narrows further. They select one design and begin creating detailed 3D models and functional prototypes, refining the handle grip and spout pour—this is the narrow end of the funnel.
+**Contemporary Digital UX Example**
+A design team for a new feature might start with a workshop that generates 50+ "How Might We" statements on a wall (wide mouth of the funnel). They then sketch 10 different user flow concepts. Through critique, they narrow this to three promising wireframe flows, and finally, they build one high-fidelity interactive prototype for user testing (narrow end of the funnel).
+**Takeaway for Modern UI Designers**
+This model provides a mental map for managing creative work. It helps a designer recognize what phase they are in and use the appropriate tools and mindset. In the beginning, your job is to generate alternatives, not to be "right." Resisting the urge to converge too early is a critical skill. The funnel reminds teams that a healthy design process requires both expansive, creative thinking and disciplined, focused execution, each at the appropriate time.
+### The Sketch-Prototype Continuum
+**Academic Definition**
+Buxton argues that sketches and prototypes are not two distinct things but rather poles on a continuum of fidelity and purpose. Their epistemological function is different: a sketch explores an idea (it asks a question), while a prototype tests an idea (it answers a question). Sketches are for the divergent phase (the mouth of the funnel); prototypes are for the convergent phase (the spout).
+**Classic Physical Example**
+**Sketch:** A series of storyboard panels showing how a user might order coffee with a new mobile app. Its purpose is to ask, "Is this flow logical and desirable?"
+**Prototype:** An interactive, clickable mockup of that same coffee app built in Figma. Its purpose is to answer, "Can a user successfully navigate from the home screen to completing their order in under 30 seconds?"
+**Contemporary Digital UX Example**
+Understanding this distinction is crucial for efficient design work. Showing a client a "sketch" (e.g., a rough wireflow) and receiving feedback on the button color is a sign of mismatched expectations. Conversely, building a high-fidelity "prototype" for an idea that is still fundamentally flawed is a massive waste of resources. A designer must consciously choose the right artifact to facilitate the right conversation at the right time.
+**Takeaway for Modern UI Designers**
+The artifact embodies the process; master your artifacts. The fidelity of what you create dictates the conversation you can have. For a VUI, a script enables a conversational critique; for AR, a physical mockup enables a spatial critique. Your most important skill will be inventing new low-fidelity "sketching" methods that match the unique dimensions of the technology you are working with.
+### Cost of Change vs. Fidelity
+**Academic Definition**
+This concept describes the inverse relationship between the fidelity of a design artifact and the psychological willingness of a team (and stakeholders) to change or discard it. As fidelity increases, the perceived "cost of change" also increases, making people less likely to offer critical feedback. Low-fidelity sketches have a low cost of change and thus invite critique. High-fidelity prototypes have a high cost of change and tend to elicit validation.
+**Classic Physical Example**
+If a designer presents a hand-drawn wireframe on a whiteboard, a manager will feel comfortable saying, "I don't think this whole approach is right. What if we tried something completely different?" If the designer presents a pixel-perfect, beautifully rendered mockup, the same manager is more likely to say, "Could we make the logo a bit bigger?" The polished artifact appears "finished," and critiquing its core concept feels socially and economically costly.
+**Contemporary Digital UX Example**
+A team will readily debate and discard a user flow drawn on a whiteboard. However, if a designer presents a pixel-perfect mockup that took 40 hours to create in a tool like Sketch, feedback will likely focus on minor details (e.g., "Can we change the button color?") rather than fundamental flaws in the concept, because the artifact feels too finished and expensive to challenge.
+**Takeaway for Modern UI Designers**
+You control the feedback you receive by controlling the fidelity of what you show. If you want foundational, conceptual feedback, you must present low-fidelity work. Showing polished designs too early is a form of self-sabotage; it starves you of the critical feedback needed to "get the right design."
+## The Process and Culture of Ideation
+Buxton argues that generating a large number of diverse ideas is essential to escape the trap of "local maxima"—that is, iterating on the first plausible idea until it's good, without ever knowing if a much better idea existed. By creating multiple distinct alternatives at the outset, a design team can compare and contrast the fundamental approaches. This ensures that the chosen direction is not just the first idea, but the strongest among a field of competitors. The goal is not to find one good idea, but to survey the landscape of possibilities to increase the probability of finding the best one.
+**The Role of Critique:** In a design studio culture, a "critique" is a formal, structured process, not just an informal feedback session. It's a collaborative analysis where a group of designers examines a body of work (a set of sketches) to discuss its strengths and weaknesses relative to the project goals. The low fidelity of sketches is what makes effective critique possible. Because the artifacts are clearly unfinished and disposable, the conversation naturally focuses on the underlying concepts, interactions, and ideas—not on surface-level execution. This de-personalizes the feedback; the critique is about the ideas on the wall, not about the designer who drew them.
+**The Design Studio Environment:** The ideal environment Buxton describes is one that promotes creativity, collaboration, and shared context. Key attributes include:
+- **Ambient Displays:** Walls are covered with sketches, storyboards, personas, and works-in-progress. This creates a shared memory and context for the team, allowing anyone to see the project's state and history at a glance.
+- **Collaborative Spaces:** The environment is fluid, with open spaces, large tables, and abundant whiteboards to encourage spontaneous discussion and co-creation.
+- **A Culture of Critique:** The social environment is as important as the physical one. It must be a safe space where ideas can be shared early and critiqued honestly without fear of personal judgment. This culture values transparency and constructive dialogue over polished presentations.
+## Synthesis: Relevance for Future Interfaces
+This is where Buxton's thinking becomes powerfully predictive for your thesis. The less we are designing for static rectangles, the more the philosophy of "sketching" as an embodied, multi-modal exploration becomes critical.
+## Applying Buxton's Principles to Future UIs
+### Voice UIs (VUI) (e.g., Alexa, Siri)
+- **Discoverability** is the primary challenge. A VUI has almost no signifiers. How does a user know what it can do? The Gulf of Execution is massive. "Wake words" are a form of signifier, but what comes next is a mystery.
+- **Role-Playing/Bodystorming:** Two people act out the interaction. One plays the user, and the other plays the "system" (the voice assistant). This is incredibly fast, cheap, and immediately reveals awkward phrasing, logical dead-ends, and conversational pacing issues.
+- **Sample Dialogue Scripts:** Writing out "happy path" and "error path" conversations like a movie script. This helps explore the persona, tone, and logic of the VUI without writing a single line of code.
+### Augmented Reality (AR) & Gestural Interfaces
+- **Signifiers** in a mixed-reality world are a new frontier. How do you signify that a real-world object has a digital affordance? A subtle glow? A floating icon?
+- **Physical Mockups/"Magic Lens":** Using a simple cardboard cutout frame or a transparent sheet of plastic (an acetate sheet with drawings on it) and holding it up to the physical environment. This allows you to simulate how digital elements would appear in context, exploring issues of scale, occlusion, and placement.
+- **Low-Fidelity Video Prototypes:** Filming a scene with a phone and then using simple video editing to superimpose static images or text. This "Wizard of Oz" technique sketches the experience of the AR system without needing a complex game engine.
+- **Bodystorming/Dance Choreography:** Simply acting out the proposed gestures. Does a "swipe" feel natural in mid-air? Is a "pinch" gesture discoverable? This is the quickest way to test the ergonomics and expressiveness of a gesture set.
+- **"Follow Me" Video:** Recording a team member performing a series of gestures and then playing it back to critique the flow, discoverability, and potential for fatigue. This focuses the conversation on the human factors of the interaction.
+### Key Challenges and Takeaways for Your Thesis
+- **Fall in Love with the Problem, Not Your Solution:** The biggest pitfall is prematurely committing to a single technical or conceptual approach (e.g., deciding an AR interface must use hand-tracking before exploring if a head-gaze or voice-based approach is better). Buxton's emphasis on generating multiple alternatives forces you to explore the problem space thoroughly.
+- **Ideate, Then Iterate:** Do not confuse the two. The biggest danger in designing for new technologies is getting stuck in a cycle of iterating on a fundamentally flawed concept ("getting the design right") simply because it was the first one you thought of. Use cheap, disposable sketches to ensure you have found "the right design" before you invest heavily in high-fidelity prototyping and development.
+- **Design is a Social Activity:** As interfaces become more integrated into our lives (AR, ambient computing), the process of designing them must become more collaborative and contextual. The studio culture Buxton champions—one of transparency, critique, and shared understanding—is the only way to tackle the immense complexity of these future challenges.`,
+  },
+
   // The Design of Everyday Things, Don Norman
   {
     slug: 'the-design-of-everyday-things-don-norman',
@@ -86,6 +258,7 @@ The process can be summarized in four iterative stages, often visualized in the 
 4. **Testing:** Put the prototypes in front of real users to observe their behavior, gather feedback, and identify flaws. The results of testing feed back into the observation and ideation stages, making the process iterative. This corresponds to the Deliver phase (converging on a final solution that works).
 **This iterative cycle is critical because it forces designers to confront their assumptions and build solutions based on real-world user behavior, not on their own mental models. It is the practical antidote to building a "Norman Door."**
 ## Synthesis: Relevance for the Future of UI
+For your thesis on the future of UI, the most important takeaway is that Norman's principles are not about buttons and screens; they are about cognition and interaction. As we move beyond graphical user interfaces (GUIs), these principles become even more critical.
 ## Applying Norman's Principles to Future UIs
 ### Voice UIs (VUI) (e.g., Alexa, Siri)
 - **Discoverability** is the primary challenge. A VUI has almost no signifiers. How does a user know what it can do? The Gulf of Execution is massive. "Wake words" are a form of signifier, but what comes next is a mystery.

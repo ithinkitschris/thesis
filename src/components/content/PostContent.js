@@ -62,7 +62,7 @@ export default function PostContent({ category, slug, allPosts }) {
             {/* <span className="bg-foreground/10 text-foreground py-1 text-sm font-medium capitalize">
               {post.category}
             </span> */}
-            <span>{new Date(post.date).toLocaleDateString()}</span>
+            <span>{new Date(new Date(post.date).getTime() + 24 * 60 * 60 * 1000).toLocaleDateString()}</span>
           </div>
 
           {/* Title */}

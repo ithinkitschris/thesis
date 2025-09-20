@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
+import { loadPositions, savePositions } from '@/lib/position-storage';
 
 export default function PostIt({ 
   id, 
@@ -9,30 +10,60 @@ export default function PostIt({
   content, 
   color = "bg-yellow-100",
   className = "",
-  onPositionUpdate 
+  onPositionUpdate,
+  textSize = "small"
 }) {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   
-  // Load position from localStorage on component mount
+  // Text size mapping
+  const getTextSizeClasses = (size) => {
+    switch (size) {
+      case 'small':
+        return {
+          header: 'text-xs',
+          content: 'text-xs'
+        };
+      case 'medium':
+        return {
+          header: 'text-sm',
+          content: 'text-sm'
+        };
+      case 'large':
+        return {
+          header: 'text-base',
+          content: 'text-base'
+        };
+      default:
+        return {
+          header: 'text-xs',
+          content: 'text-xs'
+        };
+    }
+  };
+  
+  const textClasses = getTextSizeClasses(textSize);
+  
+  // Load position from file storage on component mount
   useEffect(() => {
-    const savedPositions = localStorage.getItem('notesPositions');
-    if (savedPositions) {
-      const positions = JSON.parse(savedPositions);
+    const loadPosition = async () => {
+      const positions = await loadPositions();
       if (positions[id]) {
         setPosition(positions[id]);
       }
-    }
+    };
+    loadPosition();
   }, [id]);
   
-  // Update position and save to localStorage
-  const updatePosition = (newPosition) => {
+  // Update position and save to file storage
+  const updatePosition = async (newPosition) => {
     setPosition(newPosition);
     
-    // Update localStorage
-    const savedPositions = localStorage.getItem('notesPositions');
-    const positions = savedPositions ? JSON.parse(savedPositions) : {};
+    // Load current positions and update with new position
+    const positions = await loadPositions();
     positions[id] = newPosition;
-    localStorage.setItem('notesPositions', JSON.stringify(positions));
+    
+    // Save updated positions to file
+    await savePositions(positions);
     
     // Call parent callback if provided
     if (onPositionUpdate) {
@@ -61,11 +92,11 @@ export default function PostIt({
     >
       {/* Header */}
       <div className="mb-2">
-        <h3 className="text-xs font-semibold text-black">{header}</h3>
+        <h3 className={`${textClasses.header} font-semibold text-black`}>{header}</h3>
       </div>
 
       {/* Content */}
-      <div className="text-black/80 text-xs flex-1">
+      <div className={`text-black/80 ${textClasses.content} flex-1`}>
         {content}
       </div>
     </motion.div>
