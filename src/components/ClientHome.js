@@ -10,13 +10,13 @@ function ClientHomeContent({ posts, categories, tags }) {
     <div className="mb-40 relative flex flex-row p-20 ">
 
       {/* Sidebar */}
-      <div className="fixed left-[27.5%] top-16 w-[12.5%]">
+      <div className="fixed xl:left-[27.5%] top-16 xl:w-[12.5%] w-[20%] left-5 md:left-10">
         <Sidebar categories={categories} tags={tags} />
       </div>
 
 
       {/* Main Content */}
-      <div className="absolute left-[40%] top-16 w-[32.5%]">
+      <div className="absolute xl:left-[40%] left-[28%] lg:left-[24%] top-16 xl:w-[32.5%] w-[75] md:w-[55%]">
         <MainContent 
           posts={posts}
           allPosts={posts}
@@ -24,7 +24,7 @@ function ClientHomeContent({ posts, categories, tags }) {
       </div>
 
       {/* Notes  */}
-      <div className="absolute top-8 left-0 w-[24%]">
+      <div className="hidden xl:block absolute top-8 left-0 w-[24%]">
         <NotesContent isMainPage={false} showBackButton={false} />
       </div>
     </div>
