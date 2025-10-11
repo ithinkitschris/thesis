@@ -1,0 +1,316 @@
+{
+  "question1": "What's one thing you absolutely rely on your phone for?",
+  "question2": "What's one thing you wish you didn't need your phone for?",
+  "q1_responses": [
+    {
+      "text": "Everything",
+      "category": "Other"
+    },
+    {
+      "text": "Calling",
+      "category": "Communication"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Nothing",
+      "category": "Other"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Grindr",
+      "category": "Social Media"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Information",
+      "category": "Information"
+    },
+    {
+      "text": "Connection",
+      "category": "Communication"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Stimulation",
+      "category": "Stimulation"
+    },
+    {
+      "text": "Music",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Client Feedback",
+      "category": "Other"
+    },
+    {
+      "text": "Messaging",
+      "category": "Communication"
+    },
+    {
+      "text": "Dopamine",
+      "category": "Stimulation"
+    },
+    {
+      "text": "Connection",
+      "category": "Communication"
+    },
+    {
+      "text": "Alarm",
+      "category": "Productivity"
+    },
+    {
+      "text": "Messaging",
+      "category": "Communication"
+    },
+    {
+      "text": "Entertainment",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Weather",
+      "category": "Information"
+    },
+    {
+      "text": "Messaging",
+      "category": "Communication"
+    },
+    {
+      "text": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "text": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "text": "Family",
+      "category": "Communication"
+    },
+    {
+      "text": "Calendar",
+      "category": "Productivity"
+    },
+    {
+      "text": "Content Creation",
+      "category": "Productivity"
+    },
+    {
+      "text": "Clock",
+      "category": "Productivity"
+    },
+    {
+      "text": "Calendar",
+      "category": "Productivity"
+    },
+    {
+      "text": "Social Media",
+      "category": "Social Media"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Second Brain",
+      "category": "Productivity"
+    },
+    {
+      "text": "Touching Grass",
+      "category": "Other"
+    },
+    {
+      "text": "Work",
+      "category": "Productivity"
+    },
+    {
+      "text": "Messaging",
+      "category": "Communication"
+    },
+    {
+      "text": "Music",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Social Media",
+      "category": "Social Media"
+    },
+    {
+      "text": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "text": "Knowledge",
+      "category": "Information"
+    }
+  ],
+  "q2_responses": [
+    {
+      "text": "QR codes",
+      "category": "Utility"
+    },
+    {
+      "text": "Dating",
+      "category": "Social Media"
+    },
+    {
+      "text": "Social",
+      "category": "Social Media"
+    },
+    {
+      "text": "Communication",
+      "category": "Communication"
+    },
+    {
+      "text": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "text": "Planning",
+      "category": "Other"
+    },
+    {
+      "text": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "text": "Human Connection",
+      "category": "Communication"
+    },
+    {
+      "text": "Watching Films",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Writing",
+      "category": "Other"
+    },
+    {
+      "text": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "text": "Calculator",
+      "category": "Utility"
+    },
+    {
+      "text": "What?",
+      "category": "Other"
+    },
+    {
+      "text": "Social Media",
+      "category": "Social Media"
+    },
+    {
+      "text": "Camera",
+      "category": "Utility"
+    },
+    {
+      "text": "Client Feedback",
+      "category": "Other"
+    },
+    {
+      "text": "Dopamine",
+      "category": "Stimulation"
+    },
+    {
+      "text": "Entertainment",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Entertainment",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Connecting to Family",
+      "category": "Communication"
+    },
+    {
+      "text": "Remembering Birthdays",
+      "category": "Other"
+    },
+    {
+      "text": "Clock",
+      "category": "Productivity"
+    },
+    {
+      "text": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "text": "Messaging",
+      "category": "Communication"
+    },
+    {
+      "text": "Navigation",
+      "category": "Navigation"
+    },
+    {
+      "text": "Social Media",
+      "category": "Social Media"
+    },
+    {
+      "text": "Reading Books",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Authenticator",
+      "category": "Utility"
+    },
+    {
+      "text": "Connection",
+      "category": "Communication"
+    },
+    {
+      "text": "Touching Grass",
+      "category": "Other"
+    },
+    {
+      "text": "Work",
+      "category": "Productivity"
+    },
+    {
+      "text": "Entertainment",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Work",
+      "category": "Productivity"
+    },
+    {
+      "text": "Connection",
+      "category": "Communication"
+    },
+    {
+      "text": "Brainrot",
+      "category": "Entertainment"
+    },
+    {
+      "text": "Connection",
+      "category": "Communication"
+    }
+  ]
+}

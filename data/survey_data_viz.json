@@ -1,0 +1,433 @@
+{
+  "metadata": {
+    "total_q1_responses": 42,
+    "total_q2_responses": 36,
+    "questions": {
+      "q1": "What's one thing you absolutely rely on your phone for?",
+      "q2": "What's one thing you wish you didn't need your phone for?"
+    },
+    "valid_counts": {
+      "q1": 42,
+      "q2": 35
+    }
+  },
+  "responses": {
+    "q1": {
+      "raw": [
+        "Everything",
+        "Calling",
+        "Communication",
+        "Nothing",
+        "Communication",
+        "Communication",
+        "Grindr",
+        "Communication",
+        "Information",
+        "Connection",
+        "Communication",
+        "Communication",
+        "Communication",
+        "Stimulation",
+        "Music",
+        "Client Feedback",
+        "Messaging",
+        "Dopamine",
+        "Connection",
+        "Alarm",
+        "Messaging",
+        "Entertainment",
+        "Weather",
+        "Messaging",
+        "Navigation",
+        "Navigation",
+        "Family",
+        "Calendar",
+        "Content Creation",
+        "Clock",
+        "Calendar",
+        "Social Media",
+        "Communication",
+        "Second Brain",
+        "Touching Grass",
+        "Work",
+        "Messaging",
+        "Music",
+        "Social Media",
+        "Navigation",
+        "Knowledge",
+        "Okta Verify"
+      ],
+      "counts": {
+        "Communication": 8,
+        "Messaging": 4,
+        "Navigation": 3,
+        "Connection": 2,
+        "Music": 2,
+        "Calendar": 2,
+        "Social Media": 2,
+        "Everything": 1,
+        "Calling": 1,
+        "Nothing": 1
+      },
+      "percentages": {
+        "Communication": "19.0%",
+        "Messaging": "9.5%",
+        "Navigation": "7.1%",
+        "Connection": "4.8%",
+        "Music": "4.8%",
+        "Calendar": "4.8%",
+        "Social Media": "4.8%",
+        "Everything": "2.4%",
+        "Calling": "2.4%",
+        "Nothing": "2.4%"
+      }
+    },
+    "q2": {
+      "raw": [
+        "QR codes",
+        "Dating",
+        "Social",
+        "Communication",
+        "Navigation",
+        "Planning",
+        "Navigation",
+        "Human Connection",
+        "Watching Films",
+        "Writing",
+        "Navigation",
+        "Calculator",
+        "Social Media",
+        "Camera",
+        "Client Feedback",
+        "Dopamine",
+        "Entertainment",
+        "Entertainment",
+        "Connecting to Family",
+        "Remembering Birthdays",
+        "Clock",
+        "Navigation",
+        "Messaging",
+        "Navigation",
+        "Social Media",
+        "Reading Books",
+        "Authenticator",
+        "Connection",
+        "Touching Grass",
+        "Work",
+        "Entertainment",
+        "Work",
+        "Connection",
+        "Brainrot",
+        "Connection"
+      ],
+      "counts": {
+        "Navigation": 5,
+        "Entertainment": 3,
+        "Connection": 3,
+        "Social Media": 2,
+        "Work": 2,
+        "QR codes": 1,
+        "Dating": 1,
+        "Social": 1,
+        "Communication": 1,
+        "Planning": 1
+      },
+      "percentages": {
+        "Navigation": "14.3%",
+        "Entertainment": "8.6%",
+        "Connection": "8.6%",
+        "Social Media": "5.7%",
+        "Work": "5.7%",
+        "QR codes": "2.9%",
+        "Dating": "2.9%",
+        "Social": "2.9%",
+        "Communication": "2.9%",
+        "Planning": "2.9%"
+      }
+    }
+  },
+  "categories": {
+    "q1": {
+      "category_counts": {
+        "Communication": 16,
+        "Productivity": 7,
+        "Social Media": 3,
+        "Information": 3,
+        "Entertainment": 3,
+        "Navigation": 3,
+        "Stimulation": 2,
+        "Everything": 1,
+        "Nothing": 1,
+        "Client Feedback": 1
+      },
+      "category_percentages": {
+        "Communication": "38.1%",
+        "Productivity": "16.7%",
+        "Social Media": "7.1%",
+        "Information": "7.1%",
+        "Entertainment": "7.1%",
+        "Navigation": "7.1%",
+        "Stimulation": "4.8%",
+        "Everything": "2.4%",
+        "Nothing": "2.4%",
+        "Client Feedback": "2.4%"
+      },
+      "response_to_category": {
+        "Okta Verify": "Okta Verify",
+        "Client Feedback": "Client Feedback",
+        "Calendar": "Productivity",
+        "Knowledge": "Information",
+        "Content Creation": "Productivity",
+        "Information": "Information",
+        "Social Media": "Social Media",
+        "Weather": "Information",
+        "Dopamine": "Stimulation",
+        "Messaging": "Communication",
+        "Connection": "Communication",
+        "Communication": "Communication",
+        "Calling": "Communication",
+        "Family": "Communication",
+        "Entertainment": "Entertainment",
+        "Grindr": "Social Media",
+        "Navigation": "Navigation",
+        "Music": "Entertainment",
+        "Everything": "Everything",
+        "Work": "Productivity",
+        "Second Brain": "Productivity",
+        "Nothing": "Nothing",
+        "Alarm": "Productivity",
+        "Touching Grass": "Touching Grass",
+        "Stimulation": "Stimulation",
+        "Clock": "Productivity"
+      },
+      "categories_with_responses": {
+        "Everything": {
+          "count": 1,
+          "responses": {
+            "Everything": 1
+          }
+        },
+        "Communication": {
+          "count": 16,
+          "responses": {
+            "Calling": 1,
+            "Communication": 8,
+            "Connection": 2,
+            "Messaging": 4,
+            "Family": 1
+          }
+        },
+        "Nothing": {
+          "count": 1,
+          "responses": {
+            "Nothing": 1
+          }
+        },
+        "Social Media": {
+          "count": 3,
+          "responses": {
+            "Grindr": 1,
+            "Social Media": 2
+          }
+        },
+        "Information": {
+          "count": 3,
+          "responses": {
+            "Information": 1,
+            "Weather": 1,
+            "Knowledge": 1
+          }
+        },
+        "Stimulation": {
+          "count": 2,
+          "responses": {
+            "Stimulation": 1,
+            "Dopamine": 1
+          }
+        },
+        "Entertainment": {
+          "count": 3,
+          "responses": {
+            "Music": 2,
+            "Entertainment": 1
+          }
+        },
+        "Client Feedback": {
+          "count": 1,
+          "responses": {
+            "Client Feedback": 1
+          }
+        },
+        "Productivity": {
+          "count": 7,
+          "responses": {
+            "Alarm": 1,
+            "Calendar": 2,
+            "Content Creation": 1,
+            "Clock": 1,
+            "Second Brain": 1,
+            "Work": 1
+          }
+        },
+        "Navigation": {
+          "count": 3,
+          "responses": {
+            "Navigation": 3
+          }
+        },
+        "Touching Grass": {
+          "count": 1,
+          "responses": {
+            "Touching Grass": 1
+          }
+        },
+        "Okta Verify": {
+          "count": 1,
+          "responses": {
+            "Okta Verify": 1
+          }
+        }
+      }
+    },
+    "q2": {
+      "category_counts": {
+        "Communication": 7,
+        "Entertainment": 6,
+        "Navigation": 5,
+        "Utility": 4,
+        "Social Media": 4,
+        "Productivity": 3,
+        "Planning": 1,
+        "Writing": 1,
+        "Client Feedback": 1,
+        "Stimulation": 1
+      },
+      "category_percentages": {
+        "Communication": "20.0%",
+        "Entertainment": "17.1%",
+        "Navigation": "14.3%",
+        "Utility": "11.4%",
+        "Social Media": "11.4%",
+        "Productivity": "8.6%",
+        "Planning": "2.9%",
+        "Writing": "2.9%",
+        "Client Feedback": "2.9%",
+        "Stimulation": "2.9%"
+      },
+      "response_to_category": {
+        "Client Feedback": "Client Feedback",
+        "QR codes": "Utility",
+        "Camera": "Utility",
+        "Human Connection": "Communication",
+        "Remembering Birthdays": "Remembering Birthdays",
+        "Social Media": "Social Media",
+        "Writing": "Writing",
+        "Watching Films": "Entertainment",
+        "Brainrot": "Entertainment",
+        "Social": "Social Media",
+        "Dopamine": "Stimulation",
+        "Messaging": "Communication",
+        "Connection": "Communication",
+        "Communication": "Communication",
+        "Entertainment": "Entertainment",
+        "Reading Books": "Entertainment",
+        "Navigation": "Navigation",
+        "Calculator": "Utility",
+        "Work": "Productivity",
+        "Dating": "Social Media",
+        "Authenticator": "Utility",
+        "Connecting to Family": "Communication",
+        "Touching Grass": "Touching Grass",
+        "Planning": "Planning",
+        "Clock": "Productivity"
+      },
+      "categories_with_responses": {
+        "Utility": {
+          "count": 4,
+          "responses": {
+            "QR codes": 1,
+            "Calculator": 1,
+            "Camera": 1,
+            "Authenticator": 1
+          }
+        },
+        "Social Media": {
+          "count": 4,
+          "responses": {
+            "Dating": 1,
+            "Social": 1,
+            "Social Media": 2
+          }
+        },
+        "Communication": {
+          "count": 7,
+          "responses": {
+            "Communication": 1,
+            "Human Connection": 1,
+            "Connecting to Family": 1,
+            "Messaging": 1,
+            "Connection": 3
+          }
+        },
+        "Navigation": {
+          "count": 5,
+          "responses": {
+            "Navigation": 5
+          }
+        },
+        "Planning": {
+          "count": 1,
+          "responses": {
+            "Planning": 1
+          }
+        },
+        "Entertainment": {
+          "count": 6,
+          "responses": {
+            "Watching Films": 1,
+            "Entertainment": 3,
+            "Reading Books": 1,
+            "Brainrot": 1
+          }
+        },
+        "Writing": {
+          "count": 1,
+          "responses": {
+            "Writing": 1
+          }
+        },
+        "Client Feedback": {
+          "count": 1,
+          "responses": {
+            "Client Feedback": 1
+          }
+        },
+        "Stimulation": {
+          "count": 1,
+          "responses": {
+            "Dopamine": 1
+          }
+        },
+        "Remembering Birthdays": {
+          "count": 1,
+          "responses": {
+            "Remembering Birthdays": 1
+          }
+        },
+        "Productivity": {
+          "count": 3,
+          "responses": {
+            "Clock": 1,
+            "Work": 2
+          }
+        },
+        "Touching Grass": {
+          "count": 1,
+          "responses": {
+            "Touching Grass": 1
+          }
+        }
+      }
+    }
+  }
+}
