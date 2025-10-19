@@ -16,7 +16,7 @@ function ClientHomeContent({ posts, categories, tags }) {
 
 
       {/* Main Content */}
-      <div className="absolute xl:left-[40%] left-[28%] lg:left-[24%] top-16 xl:w-[32.5%] w-[75] md:w-[55%]">
+      <div className="absolute xl:left-[40%] left-[28%] lg:left-[24%] top-52 xl:w-[32.5%] w-[75] md:w-[55%]">
         <MainContent 
           posts={posts}
           allPosts={posts}
@@ -24,9 +24,9 @@ function ClientHomeContent({ posts, categories, tags }) {
       </div>
 
       {/* Notes  */}
-      <div className="hidden xl:block absolute top-8 left-0 w-[24%]">
+      {/* <div className="hidden xl:block absolute top-8 left-0 w-[24%]">
         <NotesContent isMainPage={false} showBackButton={false} />
-      </div>
+      </div> */}
     </div>
   );
 }

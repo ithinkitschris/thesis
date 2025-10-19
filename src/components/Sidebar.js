@@ -12,10 +12,10 @@ export default function Sidebar({ categories, tags }) {
         {/* Header */}
         <header className="mb-12 w-full">
           <h1 
-            className="text-3xl font-medium text-left tracking-[-0.03rem] mb-2 text-foreground pr-12 leading-[2rem]"
+            className="text-4xl font-medium text-left tracking-[-0.03rem] mb-2 text-foreground leading-[2rem]"
             onClick={navigateToHome}
           >
-            A study into the future of User Interfaces
+            Bargaining with the Future
           </h1>
           <p className="text-lg text-foreground"></p>
         </header>
