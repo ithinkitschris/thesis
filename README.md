@@ -50,7 +50,34 @@ excerpt: "Brief description of the entry content."
 
 ### Deployment
 
-This project is configured for easy deployment on Vercel:
+#### GitHub Pages
+
+This project is configured for deployment on GitHub Pages:
+
+1. **Enable GitHub Pages in your repository:**
+   - Go to your repository on GitHub
+   - Navigate to **Settings** → **Pages**
+   - Under **Source**, select **GitHub Actions**
+
+2. **Configure base path (if needed):**
+   - If your repository name is not the root domain (e.g., `username.github.io`), you need to set the base path
+   - Open `next.config.mjs` and uncomment/modify the `basePath` line:
+   ```javascript
+   basePath: '/your-repo-name',
+   trailingSlash: true,
+   ```
+
+3. **Push to GitHub:**
+   - Push your code to the `main` branch
+   - The GitHub Actions workflow will automatically build and deploy your site
+   - Your site will be available at `https://username.github.io/repo-name/` (or `https://username.github.io/` if it's your root repository)
+
+4. **Manual deployment:**
+   - You can also trigger deployment manually via the **Actions** tab → **Deploy to GitHub Pages** → **Run workflow**
+
+#### Alternative: Vercel
+
+This project can also be deployed on Vercel:
 
 1. Push your code to a Git repository
 2. Connect the repository to Vercel

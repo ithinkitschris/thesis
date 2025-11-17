@@ -1,12 +1,15 @@
-// Utility functions for managing post-it note positions via API
+// Utility functions for managing post-it note positions via localStorage
+// Using localStorage for static site compatibility (GitHub Pages)
+
+const STORAGE_KEY = 'postit-positions';
 
 export const loadPositions = async () => {
   try {
-    const response = await fetch('/api/positions');
-    if (!response.ok) {
-      throw new Error('Failed to load positions');
+    if (typeof window === 'undefined') {
+      return {};
     }
-    return await response.json();
+    const stored = localStorage.getItem(STORAGE_KEY);
+    return stored ? JSON.parse(stored) : {};
   } catch (error) {
     console.error('Error loading positions:', error);
     return {};
@@ -15,19 +18,11 @@ export const loadPositions = async () => {
 
 export const savePositions = async (positions) => {
   try {
-    const response = await fetch('/api/positions', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ positions }),
-    });
-    
-    if (!response.ok) {
-      throw new Error('Failed to save positions');
+    if (typeof window === 'undefined') {
+      return { success: false };
     }
-    
-    return await response.json();
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(positions));
+    return { success: true };
   } catch (error) {
     console.error('Error saving positions:', error);
     return { success: false };
@@ -36,15 +31,11 @@ export const savePositions = async (positions) => {
 
 export const resetPositions = async () => {
   try {
-    const response = await fetch('/api/positions', {
-      method: 'DELETE',
-    });
-    
-    if (!response.ok) {
-      throw new Error('Failed to reset positions');
+    if (typeof window === 'undefined') {
+      return { success: false };
     }
-    
-    return await response.json();
+    localStorage.removeItem(STORAGE_KEY);
+    return { success: true };
   } catch (error) {
     console.error('Error resetting positions:', error);
     return { success: false };
